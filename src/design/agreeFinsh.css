@@ -1,0 +1,177 @@
+/* 협의서 작성 페이지 */
+.Agree-wrapper{
+  margin-top: 160px;
+  width:70%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.Agree-content {
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.Agree-title {
+  margin-bottom: 20px;
+}
+
+.Agree-base h3,
+.Agree-myInfo h3,
+.Agree-hope h3,
+.Agree-need_tech h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  color: #7407FF;
+}
+
+.Agree-id p > span,
+.Agree-company_name p >span, .Agree-level p>span, .Agree-master_name p>span,.Agree-master_tel p>span, .Agree-end_date p>span, .Agree-sum_money p>span  {
+  font-size: small;
+  color: red;
+}
+
+.Agree-buttonBox  {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.Agree-register {
+  padding: 10px 20px;
+  margin-top: 80px;
+  margin-bottom: 35px;
+  width: 100%;
+  background-color: #7407FF;
+  box-shadow: 5px 5px 0 rgba(116, 7, 255, 0.5);
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Agree-register:hover {
+  background-color: #a669f5;
+}
+
+.Agree-content input,
+.Agree-content textarea,
+.Agree-content select {
+  width: 100%;
+  padding: 8px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: rgba(116, 7, 255, 0.1);
+  /* color: white; */
+}
+
+.Agree-content textarea{
+  height: 6.25em;
+  resize: none;
+}
+
+.Agree-content input::placeholder,
+.Agree-content textarea::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.Agree-submit_tip{
+  text-align: center;
+  font-size: small;
+  color: #ccc;
+}
+
+.Agree-submit_tip p{
+  margin-top: 0;
+}
+
+
+
+
+/* 협의서 작성 완료시 나오는 페이지 */
+.af_container{
+    background-color: rgb(0, 0, 0,0.5);
+    width: 80%;
+      padding: 20px;
+      border-radius: 17px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+}
+
+.af_top{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.af_top h1{
+  color: #7407FF ;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+
+.af_middle .finishIcon {
+  font-size: 60px;
+  /* margin-bottom: 20px; */
+}
+
+.af_middle h1 {
+  font-size: 31px;
+  color: #7407FF;
+  margin-bottom: 20px;
+}
+
+
+.af_middle .text {
+font-size: 16px;
+color: #ffffff;
+margin-bottom: 30px;
+padding-bottom: 50px;
+}
+
+.af_bottom .text{
+  border:solid 1px #7407FF;
+  margin-bottom: 0;
+  padding: 5px;
+  border-radius: 30px;
+  font-size: 13px;
+  color: #efefef;
+  display: inline-block;
+}
+
+
+.af_bottom :nth-child(2){
+  color: #5EFDDB;
+  word-break: break-word;
+}
+
+.af_bottom button {
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #7407FF;
+    box-shadow: 5px 5px 0 rgba(116, 7, 255, 0.5);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.af_bottom button:hover {
+  background-color: #a669f5;
+}

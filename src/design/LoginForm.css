@@ -1,0 +1,105 @@
+.lg_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.lg_left{
+  background-color: white;
+  padding: 40px;
+  border-radius: 17px;
+  box-shadow: 5px 5px 0 rgba(116, 7, 255, 100);
+  max-width: 400px;
+  /* margin-right: 50px; */
+}
+
+.lg_left h1{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #7407FF;
+}
+
+.lg_left h2{ 
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: #2c3e50;
+}
+
+.lg_left form{  
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lg_left .id,
+.pw {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.lg_left .id input,
+.pw input {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid #bdc3c7;
+  font-size: 16px;
+}
+
+.lg_left .buttonBox{
+  display: flex;
+  justify-content: center;
+}
+
+.lg_left .loginButton{
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color:#7407FF ;
+  box-shadow: 5px 5px 0 rgba(116, 7, 255, 0.5);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+  
+}
+
+
+.lg_left .loginButton:hover {
+  background-color: #a669f5;
+  transition: background-color 1s ease;
+}
+
+.lg_left .loginButton:active {
+  background-color:#7407FF;
+}
+
+
+.lg_left .signup{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+ font-size: 14px;
+ color: #060A1B;
+}
+
+.lg_left .signup a{
+  margin-left: 30px;
+  color:#7407FF ;
+}
+
+.lg_left .signup a:hover {
+color: #FFDC4C;
+}

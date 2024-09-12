@@ -1,0 +1,112 @@
+.DA_modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal Content */
+.DA_modal-content {
+background: white;
+color: #060A1B;
+border-radius: 30px;
+width: 60%;
+overflow-y: auto;
+overflow-x: hidden;
+}
+
+/* 스크롤 */
+.DA_modal-content::-webkit-scrollbar {
+width: 20px;
+
+}
+
+.DA_modal-content::-webkit-scrollbar-thumb {
+background-color: rgba(116, 7, 255, 0.5);
+}
+
+.DA_modal-content::-webkit-scrollbar-track {
+background-color: #eee;
+border-radius: 4px;
+}
+
+ /* Modal Header */
+ .DA_modal-header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff; /* Dark brown text */   padding-bottom: 10px;
+}
+
+  .DA_modal-header div{
+    background-color: #7407FF;
+    padding: 20px;
+  }
+
+
+/* 상세 내용 */
+.DA_modal-body{
+  max-height: calc(100vh - 200px);    
+  margin-left: 75px;
+  width: 100%;
+  border-radius: 17px;
+  font-size: 20px;
+}
+
+.DA_modal-body p{
+color: #7407FF;
+font-weight: 700;
+}
+
+.DA_modal-body input,.DA_modal-body textarea, .DA_modal-body select  {
+  text-align:left; 
+  width:80%; 
+  height:30px; 
+  border: 1px solid #c0baba;
+}
+
+.DA_modal-body p{
+  text-align:left;
+}
+.DA_modal-body textarea{
+  text-align:left; 
+  width:80%; 
+  height:70px; 
+}
+.DA_need_tech select{
+  width:80%;
+}
+
+
+
+/* Modal Footer */
+.DA_modal-footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 160px;
+}
+
+.DA_modal-footer button {
+  background: #7407FF;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+
+.DA_modal-footer button:hover {
+  opacity: 0.7;
+}

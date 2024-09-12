@@ -1,0 +1,26 @@
+.My-sub_title{color: #ddd; margin-top: 10px; font-size: medium; font-weight: 100;}
+
+/* 리스트 항목 타이틀 */
+.My-list-content{display: flex;
+  justify-content: center;}
+
+  .My-list_title{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    color: white;
+    font-size: large;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+  }
+
+    .My-list_title *{
+      width: 20%;
+      text-align: left;
+      font-weight: 700;
+    }
+
+
+
+
