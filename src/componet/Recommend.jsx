@@ -13,7 +13,9 @@ const Recommend = () => {
   // 데이터를 가져오는 비동기 함수
   const fetchCategories = async () => {
     try {
-      const response = await fetch('http://localhost:8080/get_Category/:text'); // API 호출
+      const response = await fetch(
+        'https://aiccprojback.gorideadpoets.com/get_Category/:text'
+      ); // API 호출
       const data = await response.json();
 
       // console.log(data);

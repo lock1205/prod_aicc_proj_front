@@ -22,7 +22,7 @@ const AgreeMasterList = () => {
   // useEffect(() => {
   //   const fetchData = async () => {
   //     try {
-  //       const response = await fetch('http://localhost:8080/get_tasks');
+  //       const response = await fetch('https://aiccprojback.gorideadpoets.com/get_tasks');
   //       const result = await response.json();
   //       console.log(result);
   //       setData(result);
@@ -43,7 +43,7 @@ const AgreeMasterList = () => {
 
   useEffect(() => {
     axios
-      .post('http://localhost:8080/post_status', filter)
+      .post('https://aiccprojback.gorideadpoets.com/post_status', filter)
       .then((res) => {
         if (res.status === 201) {
           if (filter.status === '') {
@@ -64,7 +64,9 @@ const AgreeMasterList = () => {
   useEffect(() => {
     if (!searchQuery) return; //검색어가 없을 시에 대한 오류문구 해결(프로그램에 지장은 없음)
     axios
-      .get(`http://localhost:8080/get_searchTasks/${searchQuery}`)
+      .get(
+        `https://aiccprojback.gorideadpoets.com/get_searchTasks/${searchQuery}`
+      )
       .then((res) => {
         if (res.status === 201) {
           setData(res.data);
