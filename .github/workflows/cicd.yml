@@ -27,11 +27,10 @@ jobs:
   deploy:
     needs: build
     runs-on: aws-ec2
-      steps:
+    steps:
       - name: Pull image from docker hub
         run: docker pull lock1205/aiccprojfront:latest
       - name: Delete existing container
         run: docker rm -f reactContainer
       - name: Run container
         run: docker run -d -p 80:80 --name reactContainer lock1205/aiccprojfront
-
