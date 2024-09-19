@@ -40,9 +40,9 @@ function LoginForm() {
       .catch((error) => {
         if (error.response) {
           if (error.response.status === 401) {
-            setModalMessage('비밀번호가 잘못되었습니다.');
+            setModalMessage('비밀번호가 잘못되었습니다. 다시 입력해주세요.');
           } else if (error.response.status === 404) {
-            setModalMessage('등록된 ID를 찾을 수 없습니다.');
+            setModalMessage('등록된 ID를 찾을 수 없습니다. 다시 입력해주세요.');
           } else {
             setModalMessage(
               '서버에서 오류가 발생했습니다. 나중에 다시 시도해주세요'
