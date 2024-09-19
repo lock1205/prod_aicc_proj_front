@@ -22,7 +22,7 @@ jobs:
       - name: Build Docker Image
         run: docker build -t lock1205/aiccprojfront .
       - name: Push Docker Image
-        run: docker push lock1205/aiccprojfront:latest
+        run: docker push lock1205/aiccprojfront
 
   deploy:
     needs: build
