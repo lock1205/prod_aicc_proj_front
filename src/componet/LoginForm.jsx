@@ -29,7 +29,7 @@ function LoginForm() {
     e.preventDefault();
 
     axios
-      .post('https://aiccprojback.gorideadpoets.com/login_user', values)
+      .post(`${process.env.REACT_APP_MY_DOMAIN}/login_user`, values)
       .then((res) => {
         if (res.status === 201) {
           const decoded = jwtDecode(res.data.token);

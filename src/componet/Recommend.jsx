@@ -14,7 +14,7 @@ const Recommend = () => {
   const fetchCategories = async () => {
     try {
       const response = await fetch(
-        'https://aiccprojback.gorideadpoets.com/get_Category/:text'
+        `${process.env.REACT_APP_MY_DOMAIN}/get_Category/:text`
       ); // API 호출
       const data = await response.json();
 
