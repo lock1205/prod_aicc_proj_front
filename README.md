@@ -17,119 +17,119 @@ DB : postgres
 front/
 github/workflows/              # GitHub 워크플로우 설정
 
-cicd.yml            # CI/CD 파이프라인 설정 파일
+cicd.yml                      # CI/CD 파이프라인 설정 파일
 
 
 public                  
 
-index.html              # 기본 HTML 템플릿
+index.html                    # 기본 HTML 템플릿
 
-manifest.json           # 웹 애플리케이션 설정 파일
+manifest.json                 # 웹 애플리케이션 설정 파일
 
-robots.txt              # 검색 엔진 크롤링 설정
-
-
-src                 # 소스 코드 폴더
-
-ai_info/            # AI 관련 데이터
-
-data.jsx            # AI 정보 및 데이터 처리 파일
-
-component/           # React 컴포넌트 폴더
-
-master/             # 관리자 관련 컴포넌트
-
-FilterBar.jsx       # 관리자페이지 필터바 컴포넌트
-
-List.jsx            # 관리자페이지 리스트 컴포넌트
-
-SearchBar.jsx       # 관리자페이지 검색바 컴포넌트
-
-mypage/             # 마이페이지 관련 컴포넌트
-
-MyAgree.jsx         # 마이페이지 리스트화면 컴포넌트
-
-public/             # 공통 관련 컴포넌트
-
-DetailAgree.jsx     # 협의서 세부사항 모달 컴포넌트
-
-ItemBar.jsx         # 협의서 아이템바 컴포넌트
-
-AgreeFinish.jsx     # 협의서 완료후 화면 컴포넌트
-
-AgreeMasterList.jsx # 관리자 협의서 관리리스트 컴포넌트
-
-AlermModal.jsx      # 알림 모달 컴포넌트
-
-ColaboAgreement.jsx # 협의서 작성 컴포넌트
-
-ContentsPage.jsx    # 콘텐츠 body 컴포넌트
-
-LoginForm.jsx       # 로그인 폼 컴포넌트
-
-MainPage.jsx        # 메인 페이지 컴포넌트
-
-Modal.jsx           # 모달 컴포넌트
-
-NavBar.jsx          # 네비게이션 바 컴포넌트
-
-Recommend.jsx       # 추천 패키지 컴포넌트
-
-SignupForm.jsx      # 회원가입 폼 컴포넌트
-
-TechInfo.jsx        # 보유 기술소개 컴포넌트
+robots.txt                   # 검색 엔진 크롤링 설정
 
 
+src                          # 소스 코드 폴더
 
-design/             # 디자인 관련 CSS 파일들
+ai_info/                     # AI 관련 데이터
 
-agreeFinsh.css      # 어그리 완료 디자인
+data.jsx                     # AI 정보 및 데이터 처리 파일
 
-AgreeMasterList.css # 어그리 마스터 리스트 디자인
+component/                   # React 컴포넌트 폴더
 
-AlermModal.css      # 알림 모달 디자인
+master/                      # 관리자 관련 컴포넌트
 
-bg.css              # 배경 디자인
+FilterBar.jsx                # 관리자페이지 필터바 컴포넌트
 
-DetailAgree.css     # 어그리 세부 사항 디자인
+List.jsx                     # 관리자페이지 리스트 컴포넌트
 
-LoginForm.css       # 로그인 폼 디자인
+SearchBar.jsx                # 관리자페이지 검색바 컴포넌트
 
-MainPage.css        # 메인 페이지 디자인
+mypage/                      # 마이페이지 관련 컴포넌트
 
-MyPage.css          # 마이페이지 디자인
+MyAgree.jsx                  # 마이페이지 리스트화면 컴포넌트
 
-Recommend.css       # 추천 디자인
+public/                      # 공통 관련 컴포넌트
 
-SignupForm.css      # 회원가입 폼 디자인
+DetailAgree.jsx              # 협의서 세부사항 모달 컴포넌트
 
-TechInfo.css        # 기술 정보 디자인
+ItemBar.jsx                  # 협의서 아이템바 컴포넌트
 
-img/                # 이미지 파일 폴더
+AgreeFinish.jsx              # 협의서 완료후 화면 컴포넌트
 
-Main/               # 메인 폴더
+AgreeMasterList.jsx          # 관리자 협의서 관리리스트 컴포넌트
 
-.vscode/            # VSCode 설정
+AlermModal.jsx               # 알림 모달 컴포넌트
 
-css/                # CSS 파일
+ColaboAgreement.jsx          # 협의서 작성 컴포넌트
 
-redux/slice/        # Redux 슬라이스 관리
+ContentsPage.jsx             # 콘텐츠 body 컴포넌트
 
-apiSlice.js         # API 관련 슬라이스
+LoginForm.jsx                # 로그인 폼 컴포넌트
 
-authSlice.js        # 로그인 인증 관련 슬라이스
+MainPage.jsx                 # 메인 페이지 컴포넌트
 
-modalSlice.js       # 모달 관련 슬라이스
+Modal.jsx                    # 모달 컴포넌트
 
-tempSlice.js        # 임시저장 쿠키 관련 슬라이스
+NavBar.jsx                   # 네비게이션 바 컴포넌트
 
-store.js            # Redux 스토어 설정
+Recommend.jsx                # 추천 패키지 컴포넌트
 
-util/               # 유틸리티 함수 폴더
+SignupForm.jsx               # 회원가입 폼 컴포넌트
 
-apiUrl.js           # API URL 관련 유틸리티 파일
+TechInfo.jsx                 # 보유 기술소개 컴포넌트
 
-requestMethods.js   # 질의 관련 메소드 파일
+
+
+design/                      # 디자인 관련 CSS 파일들
+
+agreeFinsh.css               # 어그리 완료 디자인
+
+AgreeMasterList.css          # 어그리 마스터 리스트 디자인
+
+AlermModal.css               # 알림 모달 디자인
+
+bg.css                       # 배경 디자인
+
+DetailAgree.css              # 어그리 세부 사항 디자인
+
+LoginForm.css                # 로그인 폼 디자인
+
+MainPage.css                 # 메인 페이지 디자인
+
+MyPage.css                   # 마이페이지 디자인
+
+Recommend.css                # 추천 디자인
+
+SignupForm.css               # 회원가입 폼 디자인
+
+TechInfo.css                 # 기술 정보 디자인
+
+img/                         # 이미지 파일 폴더
+
+Main/                        # 메인 폴더
+
+.vscode/                     # VSCode 설정
+
+css/                         # CSS 파일
+
+redux/slice/                 # Redux 슬라이스 관리
+
+apiSlice.js                  # API 관련 슬라이스
+
+authSlice.js                 # 로그인 인증 관련 슬라이스
+
+modalSlice.js                # 모달 관련 슬라이스
+
+tempSlice.js                 # 임시저장 쿠키 관련 슬라이스
+
+store.js                     # Redux 스토어 설정
+
+util/                        # 유틸리티 함수 폴더
+
+apiUrl.js                    # API URL 관련 유틸리티 파일
+
+requestMethods.js            # 질의 관련 메소드 파일
 
 ## 사용법 ##
 1.클론을 받은 뒤
