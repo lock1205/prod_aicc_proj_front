@@ -4,11 +4,11 @@
 
 **벡엔드** 
  - git 명 : prod_aicc_proj_back
- - 프레임워크 : node.js
+ - 사용환경 : node.js
 
 **프론트엔드** 
  - git 명 : prod_aicc_proj_front
- - 프레임워크 : react
+ - 라이브러리 : react
 
 DB : postgres
 
